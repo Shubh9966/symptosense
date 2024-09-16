@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SymptoSense</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="project-name">SymptoSense</h1>
+        <p class="project-description">Medical text classification and doctor recommendation system</p>
+    </header>
+    <div class="container">
+        <h2>Enter your symptoms:</h2>
+        <textarea id="symptoms" rows="4" placeholder="Describe your symptoms here..."></textarea>
+        
+        <label for="language-select">Choose input language:</label>
+        <select id="language-select">
+            <option value="en-US">English</option>
+            <option value="hi-IN">Hindi</option>
+            <option value="mr-IN">Marathi</option>
+            <option value="bn-IN">Bengali</option>
+            <option value="gu-IN">Gujarati</option>
+        </select>
+        
+        <div class="button-group">
+            <button id="classify-button" onclick="classifySymptoms()">Classify</button>
+            <button id="voice-input-button" onclick="startVoiceInput()">Speak</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <footer>
+        <p class="developers">Developed by <span class="developer-name">Samiran Gupta</span>, <span class="developer-name">Shreyash Raut</span>, <span class="developer-name">Shubham Shivhare</span>, and <span class="developer-name">Vedant Waghle</span></p>
+    </footer>
+
+    <!-- Modal Structure -->
+    <div id="doctorModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2 class="modal-heading">Recommended Doctors</h2>
+            <div id="doctor-list" class="doctors-list"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+

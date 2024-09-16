@@ -1,0 +1,158 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f8ff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ecf4f7; 
+    padding: 20px;
+    text-align: center;
+}
+
+.project-name {
+    font-family: 'Roboto', sans-serif; 
+    font-size: 2.5em;
+    color: #3498db; 
+    margin-bottom: 5px;
+}
+
+.project-description {
+    font-size: 1.2em; 
+    color: #57606f; 
+    margin-top: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f8ff; /* Light blue */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333; /* Dark grey */
+}
+
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc; /* Light grey */
+    border-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Space between buttons */
+}
+
+button {
+    background-color: #007bff; /* Blue */
+    color: #ffffff; /* White */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue */
+}
+
+#result {
+    margin-top: 20px;
+}
+
+.probability {
+    margin-bottom: 10px;
+}
+
+.probability-label {
+    font-weight: bold;
+    color: #007bff; /* Blue */
+}
+
+.probability-score {
+    margin-left: 10px;
+    color: #333333; /* Dark grey */
+}
+
+footer {
+    background-color: #ecf4f7; /* Lighter blue */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.developers {
+    color: #57606f; /* Slightly darker color for contrast */
+}
+
+.developer-name {
+    font-weight: bold;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-heading {
+    color: #007bff; /* Bright blue */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.doctors-list {
+    color: #007bff; /* Bright blue */
+}
+
+.doctors-list a {
+    color: #007bff; /* Bright blue */
+    text-decoration: none;
+}
+
+.doctors-list a:hover {
+    text-decoration: underline;
+}
+
