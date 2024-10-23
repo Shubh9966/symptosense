@@ -176,7 +176,7 @@ function displayResult(result) {
             probabilityElement.classList.add("probability");
             probabilityElement.innerHTML = `
                 <span class="probability-label">Probability ${index + 1}: ${symptom}</span>
-                <span class="probability-score">${probability}%</span>
+                
             `;
 
             const doctors = doctorsMap[labelIndex+1] || [];
